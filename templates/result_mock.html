@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% block title %}Kết quả thi thử{% endblock %}
+{% block content %}
+
+<div class="container mt-5 text-center">
+    <h2 class="mb-4 text-primary">📊 Kết quả Thi Thử</h2>
+
+    {% set percent = (score / total * 100) if total else 0 %}
+    {% set percent_text = (percent | round(1)) ~ '%' %}
+
+    <div class="card shadow-lg border-primary mx-auto" style="max-width: 450px;">
+        <div class="card-body">
+            <h5 class="card-title">Bạn đã làm đúng</h5>
+            <h1 class="display-4 text-success">{{ score }}/{{ total }}</h1>
+            <p class="lead">Tỷ lệ đúng: <strong>{{ percent_text }}</strong></p>
+
+            <div class="progress my-3" style="height: 24px;">
+                <div class="progress-bar bg-success"
+                     id="progressBar"
+                     role="progressbar"
+                     data-percent="{{ percent | round(1) }}"
+                     aria-valuenow="{{ percent }}"
+                     aria-valuemin="0"
+                     aria-valuemax="100">
+                    {{ percent_text }}
+                </div>
+            </div>
+
+            <div class="mt-4 d-grid gap-2">
+                <a href="{{ url_for('mock_test') }}" class="btn btn-outline-primary">
+                    <i class="fas fa-redo-alt"></i> Làm lại bài thi thử
+                </a>
+                <a href="{{ url_for('home') }}" class="btn btn-secondary">
+                    <i class="fas fa-home"></i> Về trang chủ
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Đặt width bằng JS để tránh lỗi phân tích cú pháp
+    document.addEventListener("DOMContentLoaded", function () {
+        const bar = document.getElementById("progressBar");
+        const percent = bar.dataset.percent;
+        bar.style.width = percent + "%";
+    });
+</script>
+
+{% endblock %}

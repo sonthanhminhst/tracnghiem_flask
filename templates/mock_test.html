@@ -1,0 +1,110 @@
+{% extends 'base.html' %}
+{% block title %}Thi thử{% endblock %}
+{% block content %}
+
+<div class="container my-5" style="max-width: 800px;">
+    <div class="text-center mb-4">
+        <h2 class="text-primary">🎯 Thi thử cùng {{ session.name }}</h2>
+        <p class="text-muted">Bạn có 10 phút để hoàn thành bài thi. Chúc bạn may mắn!</p>
+    </div>
+
+    <form method="POST" id="testForm" class="bg-white p-4 rounded-4 shadow-lg border">
+        {% if not selected_class %}
+            <div class="mb-4">
+                <label class="form-label fw-semibold">🔎 Chọn khối thi:</label>
+                <select class="form-select" name="selected_class" required>
+                    <option value="">-- Chọn khối --</option>
+                    <option value="Tin học 6">Tin học 6</option>
+                    <option value="Tin học 7">Tin học 7</option>
+                    <option value="Tin học 8">Tin học 8</option>
+                    <option value="Tin học 9">Tin học 9</option>
+                </select>
+            </div>
+            <div class="d-grid">
+                <button type="submit" class="btn btn-primary">Tiếp tục</button>
+            </div>
+
+        {% elif not selected_topic %}
+            <div class="mb-3">
+                <h5 class="text-success">✅ Khối đã chọn: {{ selected_class }}</h5>
+                <label class="form-label fw-semibold">📘 Chọn chủ đề:</label>
+                <select class="form-select" name="selected_topic" required>
+                    <option value="">-- Chọn chủ đề --</option>
+                    {% for topic in topics %}
+                        <option value="{{ topic }}">{{ topic }}</option>
+                    {% endfor %}
+                </select>
+                <input type="hidden" name="selected_class" value="{{ selected_class }}">
+            </div>
+            <div class="d-grid">
+                <button type="submit" class="btn btn-success">Bắt đầu làm bài</button>
+            </div>
+
+        {% else %}
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <div>
+                    <span class="badge bg-success me-2">{{ selected_class }}</span>
+                    <span class="badge bg-info text-dark">{{ selected_topic }}</span>
+                </div>
+                <div class="text-end">
+                    <span class="badge bg-danger fs-6">⏳ <span id="timer">10:00</span></span>
+                </div>
+            </div>
+
+            {% for q in questions %}
+                <div class="card mb-4 border-primary shadow-sm">
+                    <div class="card-body">
+                        <h6 class="card-title">📄 Câu {{ loop.index }}:</h6>
+                        <p class="card-text">{{ q.question }}</p>
+                        <div class="ps-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question_{{ loop.index0 }}" id="q{{ loop.index0 }}a" value="option_a" required>
+                                <label class="form-check-label" for="q{{ loop.index0 }}a">A. {{ q.option_a }}</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question_{{ loop.index0 }}" id="q{{ loop.index0 }}b" value="option_b">
+                                <label class="form-check-label" for="q{{ loop.index0 }}b">B. {{ q.option_b }}</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question_{{ loop.index0 }}" id="q{{ loop.index0 }}c" value="option_c">
+                                <label class="form-check-label" for="q{{ loop.index0 }}c">C. {{ q.option_c }}</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question_{{ loop.index0 }}" id="q{{ loop.index0 }}d" value="option_d">
+                                <label class="form-check-label" for="q{{ loop.index0 }}d">D. {{ q.option_d }}</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+
+            <div class="d-grid mt-4">
+                <button type="submit" class="btn btn-danger btn-lg">🧾 Nộp bài</button>
+            </div>
+        {% endif %}
+    </form>
+</div>
+
+{% if questions %}
+<script>
+    let timer = 10 * 60;
+    const timerDisplay = document.getElementById('timer');
+    const form = document.getElementById('testForm');
+
+    function updateTimer() {
+        const minutes = Math.floor(timer / 60);
+        const seconds = timer % 60;
+        timerDisplay.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+        if (timer <= 0) {
+            clearInterval(interval);
+            alert('⏰ Hết thời gian! Bài sẽ được nộp.');
+            form.submit();
+        }
+        timer--;
+    }
+
+    const interval = setInterval(updateTimer, 1000);
+</script>
+{% endif %}
+
+{% endblock %}

@@ -1,0 +1,169 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Quản lý Câu hỏi</h1>
+
+    <!-- Hiển thị thông báo flash -->
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        {% for category, message in messages %}
+          <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+            {{ message }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+
+    <!-- Form Thêm Câu hỏi -->
+    <div class="card mb-5">
+        <div class="card-header bg-primary text-white">Thêm Câu hỏi mới</div>
+        <div class="card-body">
+            <form method="POST" action="{{ url_for('add_question') }}">
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label class="form-label">Chọn lớp:</label>
+                        <select id="classSelect" name="selected_class" class="form-select" required>
+                            <option value="">-- Chọn lớp --</option>
+                            <option value="Tin học 6">Tin học 6</option>
+                            <option value="Tin học 7">Tin học 7</option>
+                            <option value="Tin học 8">Tin học 8</option>
+                            <option value="Tin học 9">Tin học 9</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Chọn chủ đề:</label>
+                        <select id="topicSelect" name="topic" class="form-select" required>
+                            <option value="">-- Chọn chủ đề --</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Câu hỏi:</label>
+                    <input type="text" name="question" class="form-control" required>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label">Đáp án A:</label>
+                        <input type="text" name="option_a" class="form-control" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label">Đáp án B:</label>
+                        <input type="text" name="option_b" class="form-control" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label">Đáp án C:</label>
+                        <input type="text" name="option_c" class="form-control" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label">Đáp án D:</label>
+                        <input type="text" name="option_d" class="form-control" required>
+                    </div>
+                </div>
+
+                <div class="mb-4">
+                    <label class="form-label">Đáp án đúng (option_a, option_b, option_c, option_d):</label>
+                    <input type="text" name="correct_option" class="form-control" placeholder="Ví dụ: option_b" required>
+                </div>
+
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-success">Thêm câu hỏi</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Danh sách câu hỏi -->
+    <h2 class="text-center mb-4">Danh sách Câu hỏi</h2>
+
+    <div class="table-responsive">
+        <table class="table table-striped table-hover align-middle">
+            <thead class="table-primary">
+                <tr>
+                    <th>#</th>
+                    <th>Lớp</th>
+                    <th>Chủ đề</th>
+                    <th>Câu hỏi</th>
+                    <th>Đáp án đúng</th>
+                    <th>Xóa</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for question in questions %}
+                <tr>
+                    <td>{{ loop.index }}</td>
+                    <td>{{ question.class }}</td>
+                    <td>{{ question.topic }}</td>
+                    <td>{{ question.question }}</td>
+                    <td>{{ question.correct_option|capitalize }}</td>
+                    <td>
+                        <a href="{{ url_for('delete_question', question_id=question.id) }}" 
+                           class="btn btn-danger btn-sm" 
+                           onclick="return confirm('Bạn chắc chắn muốn xóa câu hỏi này?');">
+                           Xóa
+                        </a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Script đổi chủ đề theo lớp -->
+<script>
+const topics = {
+    "Tin học 6": [
+        "Chủ đề 1: Máy tính và cộng đồng",
+        "Chủ đề 2: Mạng máy tính và Internet",
+        "Chủ đề 3: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin",
+        "Chủ đề 4: Đạo đức pháp luật văn hóa trong môi trường số",
+        "Chủ đề 5: Ứng dụng tin học",
+        "Chủ đề 6: Giải quyết vấn đề với sự trợ giúp của máy tính"
+    ],
+    "Tin học 7": [
+        "Chủ đề 1: Máy tính và cộng đồng",
+        "Chủ đề 2: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin",
+        "Chủ đề 3: Đạo đức pháp luật văn hóa trong môi trường số",
+        "Chủ đề 4: Ứng dụng tin học",
+        "Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính"
+    ],
+    "Tin học 8": [
+        "Chủ đề 1: Máy tính và cộng đồng",
+        "Chủ đề 2: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin",
+        "Chủ đề 3: Đạo đức pháp luật văn hóa trong môi trường số",
+        "Chủ đề 4: Ứng dụng tin học",
+        "Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính",
+        "Chủ đề 6: Hướng nghiệp với Tin học"
+    ],
+    "Tin học 9": [
+        "Chủ đề 1: Máy tính và cộng đồng",
+        "Chủ đề 2: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin",
+        "Chủ đề 3: Đạo đức pháp luật văn hóa trong môi trường số",
+        "Chủ đề 4: Ứng dụng tin học",
+        "Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính",
+        "Chủ đề 6: Hướng nghiệp với Tin học"
+    ]
+};
+
+document.getElementById('classSelect').addEventListener('change', function() {
+    const selectedClass = this.value;
+    const topicSelect = document.getElementById('topicSelect');
+
+    topicSelect.innerHTML = '<option value="">-- Chọn chủ đề --</option>';
+
+    if (topics[selectedClass]) {
+        topics[selectedClass].forEach(topic => {
+            const option = document.createElement('option');
+            option.value = topic;
+            option.textContent = topic;
+            topicSelect.appendChild(option);
+        });
+    }
+});
+</script>
+
+{% endblock %}

@@ -1,0 +1,19 @@
+/* Hiệu ứng mượt cho thanh tiến độ */
+.dynamic-width {
+    transition: width 0.6s ease-in-out;
+  }
+  
+  /* Gợi ý thêm hiệu ứng chữ nếu bạn muốn */
+  .card-title {
+    font-weight: 600;
+  }
+  
+  .lead {
+    font-size: 1.25rem;
+  }
+  
+  .progress-bar {
+    font-weight: bold;
+    text-align: center;
+  }
+  

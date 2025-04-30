@@ -1,0 +1,239 @@
+class,topic,question,option_a,option_b,option_c,option_d,correct_option
+Tin học 6,Chủ đề 1: Máy tính và cộng đồng,Máy tính có thể hỗ trợ trong lĩnh vực nào sau đây?,Y tế,Giáo dục,Giao thông,Tất cả các đáp án,option_d
+Tin học 6,Chủ đề 1: Máy tính và cộng đồng,Thiết bị nào là thiết bị đầu vào?,Màn hình,Bàn phím,Loa,Ổ cứng,option_b
+Tin học 6,Chủ đề 1: Máy tính và cộng đồng,Bộ phận nào xử lý dữ liệu trong máy tính?,RAM,CPU,Ổ đĩa cứng,Màn hình,option_b
+Tin học 6,Chủ đề 1: Máy tính và cộng đồng,Đâu là thiết bị lưu trữ dữ liệu?,CPU,Ổ cứng,Màn hình,Bàn phím,option_b
+Tin học 6,Chủ đề 1: Máy tính và cộng đồng,Phần mềm nào dùng để gõ văn bản?,Word,Excel,PowerPoint,Photoshop,option_a
+Tin học 6,Chủ đề 1: Máy tính và cộng đồng,Đâu là thiết bị xuất dữ liệu?,Bàn phím,Chuột,Máy in,Ổ cứng,option_c
+Tin học 6,Chủ đề 1: Máy tính và cộng đồng,Máy tính là công cụ xử lý...,Hình ảnh,Âm thanh,Dữ liệu,Tín hiệu,option_c
+Tin học 6,Chủ đề 1: Máy tính và cộng đồng,Phần mềm nào sau đây là phần mềm hệ thống?,Windows,Word,Excel,PowerPoint,option_a
+Tin học 6,Chủ đề 1: Máy tính và cộng đồng,Bộ nhớ tạm thời trong máy tính là gì?,RAM,ROM,Ổ cứng,USB,option_a
+Tin học 6,Chủ đề 1: Máy tính và cộng đồng,Thiết bị nào sau đây không phải là thiết bị xuất dữ liệu?,Máy in,Loa,Bàn phím,Màn hình,option_c
+Tin học 6,Chủ đề 1: Máy tính và cộng đồng,Máy tính hỗ trợ con người trong việc gì?,Xử lý thông tin,Nghỉ ngơi,Thể thao,Nấu ăn,option_a
+Tin học 6,Chủ đề 1: Máy tính và cộng đồng,Đâu là thiết bị đầu ra của máy tính?,Chuột,Bàn phím,Màn hình,Bộ nguồn,option_c
+Tin học 6,Chủ đề 1: Máy tính và cộng đồng,"Bộ phận nào là ""bộ não"" của máy tính?",Ổ cứng,Màn hình,CPU,Chuột,option_c
+Tin học 6,Chủ đề 1: Máy tính và cộng đồng,Thiết bị nào sau đây là thiết bị lưu trữ ngoài?,Ổ cứng trong,USB,Màn hình,Loa,option_b
+Tin học 6,Chủ đề 1: Máy tính và cộng đồng,Thiết bị nào là thiết bị nhập dữ liệu?,Bàn phím,Loa,Máy in,Ổ cứng,option_a
+Tin học 6,Chủ đề 1: Máy tính và cộng đồng,Đâu là ví dụ của phần mềm ứng dụng?,Hệ điều hành Windows,Microsoft Word,Ổ cứng,Bộ vi xử lý,option_b
+Tin học 6,Chủ đề 1: Máy tính và cộng đồng,Ổ cứng là thiết bị dùng để làm gì?,Nhập dữ liệu,Hiển thị dữ liệu,Lưu trữ dữ liệu,Phát âm thanh,option_c
+Tin học 6,Chủ đề 1: Máy tính và cộng đồng,Phần mềm nào sau đây thuộc loại phần mềm hệ thống?,Google Chrome,Microsoft Excel,Microsoft Windows,Adobe Photoshop,option_c
+Tin học 6,Chủ đề 1: Máy tính và cộng đồng,Bộ nhớ tạm thời trong máy tính gọi là gì?,ROM,RAM,Ổ USB,Ổ cứng SSD,option_b
+Tin học 6,Chủ đề 1: Máy tính và cộng đồng,Thiết bị nào sau đây KHÔNG phải thiết bị nhập dữ liệu?,Chuột,Bàn phím,Màn hình,Cảm biến,option_c
+Tin học 6,Chủ đề 2: Mạng máy tính và Internet,Mạng máy tính là gì?,Tập hợp các máy tính kết nối với nhau,Thiết bị đầu vào,Ổ cứng,Máy in,option_a
+Tin học 6,Chủ đề 2: Mạng máy tính và Internet,Thiết bị nào giúp các máy tính kết nối mạng với nhau?,Switch,Chuột,Màn hình,Ổ cứng,option_a
+Tin học 6,Chủ đề 2: Mạng máy tính và Internet,Thiết bị nào cần thiết để truy cập Internet?,Router,Máy in,Bàn phím,Màn hình,option_a
+Tin học 6,Chủ đề 2: Mạng máy tính và Internet,Đâu là trình duyệt web?,Word,Excel,Chrome,Photoshop,option_c
+Tin học 6,Chủ đề 2: Mạng máy tính và Internet,WWW là viết tắt của cụm từ gì?,World Wide Web,Windows Web World,Web Word Wide,Wide World Web,option_a
+Tin học 6,Chủ đề 2: Mạng máy tính và Internet,Gmail là dịch vụ gì?,Mua bán trực tuyến,Email miễn phí,Lưu trữ đám mây,Trình soạn thảo văn bản,option_b
+Tin học 6,Chủ đề 2: Mạng máy tính và Internet,Thiết bị nào sau đây là thiết bị mạng?,Máy in,Bàn phím,Switch,Ổ đĩa cứng,option_c
+Tin học 6,Chủ đề 2: Mạng máy tính và Internet,Chức năng chính của trình duyệt web là gì?,Soạn thảo văn bản,Kết nối mạng,Tìm kiếm và truy cập thông tin,Xử lý dữ liệu,option_c
+Tin học 6,Chủ đề 2: Mạng máy tính và Internet,Dữ liệu trên Internet được tổ chức dưới dạng gì?,Website,Cơ sở dữ liệu,Email,Ổ cứng,option_a
+Tin học 6,Chủ đề 3: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Thiết bị nào dùng để lưu trữ dữ liệu lâu dài?,RAM,Ổ cứng,CPU,Chuột,option_b
+Tin học 6,Chủ đề 3: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Thiết bị nào sau đây là thiết bị lưu trữ di động?,Ổ USB,Màn hình,Bàn phím,Chuột,option_a
+Tin học 6,Chủ đề 3: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Đâu là thiết bị hỗ trợ tìm kiếm thông tin?,Bàn phím,Chuột,Bộ xử lý trung tâm (CPU),Internet,option_d
+Tin học 6,Chủ đề 3: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Đâu là một công cụ tìm kiếm phổ biến hiện nay?,Google,Word,Excel,PowerPoint,option_a
+Tin học 6,Chủ đề 3: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Thông tin được lưu trữ dưới dạng nào trong máy tính?,Hình ảnh,Âm thanh,Dữ liệu số,Tài liệu giấy,option_c
+Tin học 6,Chủ đề 3: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Ổ đĩa cứng có dung lượng lưu trữ như thế nào?,Rất nhỏ,Trung bình,Rất lớn,Không thể xác định,option_c
+Tin học 6,Chủ đề 3: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Bộ nhớ nào mất dữ liệu khi tắt nguồn?,ROM,Ổ cứng,RAM,Ổ USB,option_c
+Tin học 6,Chủ đề 3: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Thao tác nào sau đây giúp tìm kiếm thông tin nhanh hơn trên Internet?,Sử dụng từ khóa phù hợp,Lướt web không mục đích,Gõ từ khóa dài bất kỳ,Đọc toàn bộ trang web,option_a
+Tin học 6,Chủ đề 3: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Email là dịch vụ dùng để làm gì?,Chơi game,Trao đổi thông tin,Thiết kế website,Lưu trữ hình ảnh,option_b
+Tin học 6,Chủ đề 4: Đạo đức pháp luật văn hóa trong môi trường số,Chia sẻ thông tin sai lệch trên Internet là hành vi gì?,Đúng pháp luật,Vi phạm pháp luật,Được khuyến khích,Bình thường,option_b
+Tin học 6,Chủ đề 4: Đạo đức pháp luật văn hóa trong môi trường số,Hành động nào thể hiện đạo đức khi sử dụng Internet?,Đăng thông tin giả mạo,Chia sẻ thông tin hữu ích,Xâm nhập máy người khác,Lừa đảo trực tuyến,option_b
+Tin học 6,Chủ đề 4: Đạo đức pháp luật văn hóa trong môi trường số,Khi tham gia mạng xã hội học sinh cần lưu ý điều gì?,Tự do phát ngôn xúc phạm người khác,Giữ gìn hình ảnh và tôn trọng người khác,Sử dụng tài khoản giả mạo,Gửi tin nhắn rác,option_b
+Tin học 6,Chủ đề 4: Đạo đức pháp luật văn hóa trong môi trường số,Hành vi vi phạm nào bị xử lý theo pháp luật?,Chia sẻ thông tin sai sự thật,Sử dụng máy tính cá nhân,Tìm kiếm thông tin học tập,Chơi trò chơi trực tuyến,option_a
+Tin học 6,Chủ đề 4: Đạo đức pháp luật văn hóa trong môi trường số,Sử dụng phần mềm lậu là hành vi?,Đúng luật,Vi phạm bản quyền,Được khuyến khích,Không có ảnh hưởng,option_b
+Tin học 6,Chủ đề 4: Đạo đức pháp luật văn hóa trong môi trường số,Hành vi nào sau đây vi phạm đạo đức khi sử dụng email?,Gửi thư rác,Trả lời lịch sự,Gửi lời cảm ơn,Gửi tài liệu đúng hẹn,option_a
+Tin học 6,Chủ đề 4: Đạo đức pháp luật văn hóa trong môi trường số,Hành động nào sau đây giúp xây dựng môi trường mạng văn minh?,Bình luận tiêu cực,Chia sẻ kiến thức hữu ích,Lừa đảo người dùng,Xâm nhập trái phép,option_b
+Tin học 6,Chủ đề 4: Đạo đức pháp luật văn hóa trong môi trường số,Tôn trọng bản quyền phần mềm là biểu hiện của?,Ý thức pháp luật thấp,Ý thức pháp luật cao,Ý thức pháp luật trung bình,Không cần thiết,option_b
+Tin học 6,Chủ đề 4: Đạo đức pháp luật văn hóa trong môi trường số,Hành vi nào đảm bảo an toàn thông tin cá nhân?,Chia sẻ mật khẩu với bạn bè,Tự ý đăng thông tin người khác,Giữ kín thông tin tài khoản cá nhân,Đăng nhập tài khoản lạ,option_c
+Tin học 6,Chủ đề 4: Đạo đức pháp luật văn hóa trong môi trường số,Khi sử dụng Internet em cần tôn trọng những giá trị nào?,Tôn trọng cá nhân văn hóa và pháp luật,Tự do phát tán thông tin xấu,Không cần quan tâm luật pháp,Chia sẻ tin giả mạo,option_a
+Tin học 6,Chủ đề 5: Ứng dụng tin học,Phần mềm nào dùng để soạn thảo văn bản?,Word,Excel,Paint,PowerPoint,option_a
+Tin học 6,Chủ đề 5: Ứng dụng tin học,Phần mềm nào hỗ trợ trình chiếu bài giảng?,Word,Paint,PowerPoint,Excel,option_c
+Tin học 6,Chủ đề 5: Ứng dụng tin học,Ứng dụng nào dùng để vẽ tranh trên máy tính?,Excel,Paint,Word,PowerPoint,option_b
+Tin học 6,Chủ đề 5: Ứng dụng tin học,Phần mềm Excel chủ yếu dùng để làm gì?,Soạn thảo văn bản,Tính toán và xử lý dữ liệu,Biên tập ảnh,Thiết kế trò chơi,option_b
+Tin học 6,Chủ đề 5: Ứng dụng tin học,Trong tin học PowerPoint được dùng để?,Tính toán,Trình chiếu bài giảng,Vẽ tranh,Soạn thảo văn bản,option_b
+Tin học 6,Chủ đề 5: Ứng dụng tin học,Ứng dụng nào sau đây được dùng để tìm kiếm thông tin?,Paint,Word,Google Chrome,Excel,option_c
+Tin học 6,Chủ đề 5: Ứng dụng tin học,Để lưu trữ dữ liệu và văn bản chúng ta nên dùng phần mềm nào?,Paint,Word,PowerPoint,Snipping Tool,option_b
+Tin học 6,Chủ đề 5: Ứng dụng tin học,Phần mềm vẽ tranh đơn giản có sẵn trong Windows là?,Photoshop,Paint,Illustrator,Word,option_b
+Tin học 6,Chủ đề 5: Ứng dụng tin học,Công dụng chính của phần mềm Word là gì?,Trình chiếu bài thuyết trình,Soạn thảo văn bản,Vẽ kỹ thuật số,Lập bảng tính,option_b
+Tin học 6,Chủ đề 5: Ứng dụng tin học,Đâu là ví dụ về việc sử dụng tin học trong học tập?,Sử dụng máy tính để chơi game,Lập bảng thống kê điểm học tập trên Excel,Chơi game online,Lướt mạng xã hội,option_b
+Tin học 6,Chủ đề 6: Giải quyết vấn đề với sự trợ giúp của máy tính,Máy tính có thể giúp gì trong quá trình giải quyết vấn đề?,Tăng tốc độ xử lý thông tin,Chậm hơn so với làm tay,Làm việc ngẫu nhiên,Không hỗ trợ,option_a
+Tin học 6,Chủ đề 6: Giải quyết vấn đề với sự trợ giúp của máy tính,Bước đầu tiên trong giải quyết vấn đề là gì?,Tìm kiếm giải pháp,Phân tích và xác định vấn đề,Thử nghiệm giải pháp,Đưa ra kết quả,option_b
+Tin học 6,Chủ đề 6: Giải quyết vấn đề với sự trợ giúp của máy tính,Phần mềm nào hỗ trợ lập bảng kế hoạch học tập?,Excel,Paint,Notepad,Chrome,option_a
+Tin học 6,Chủ đề 6: Giải quyết vấn đề với sự trợ giúp của máy tính,Ứng dụng tin học nào giúp tính toán điểm trung bình học kỳ?,Word,Excel,Paint,PowerPoint,option_b
+Tin học 6,Chủ đề 6: Giải quyết vấn đề với sự trợ giúp của máy tính,Trong tin học thuật toán là gì?,Bài thơ,Truyện ngắn,Tập hợp các bước giải quyết vấn đề,Bảng biểu,option_c
+Tin học 6,Chủ đề 6: Giải quyết vấn đề với sự trợ giúp của máy tính,Phần mềm nào giúp mô phỏng thí nghiệm?,Paint,Photoshop,Phần mềm mô phỏng,Excel,option_c
+Tin học 6,Chủ đề 6: Giải quyết vấn đề với sự trợ giúp của máy tính,Một bài toán tin học thường được giải quyết bằng cách nào?,Suy đoán ngẫu nhiên,Áp dụng thuật toán,Đặt câu hỏi mở,Ngẫu nhiên lựa chọn,option_b
+Tin học 6,Chủ đề 6: Giải quyết vấn đề với sự trợ giúp của máy tính,Ưu điểm của việc sử dụng máy tính để giải quyết vấn đề là gì?,Chậm chạp và kém chính xác,Tiết kiệm thời gian và công sức,Khó sử dụng,Chỉ phù hợp với người lớn,option_b
+Tin học 6,Chủ đề 6: Giải quyết vấn đề với sự trợ giúp của máy tính,Khi có nhiều phương án giải quyết ta nên làm gì?,Chọn phương án ngẫu nhiên,So sánh và chọn phương án tối ưu,Chọn phương án bất kỳ,Bỏ qua việc lựa chọn,option_b
+Tin học 6,Chủ đề 6: Giải quyết vấn đề với sự trợ giúp của máy tính,Khi giải quyết vấn đề bằng máy tính việc kiểm tra và đánh giá kết quả nhằm mục đích gì?,Bỏ qua lỗi,Làm đẹp kết quả,Đảm bảo tính chính xác và phù hợp,Ẩn sai sót,option_c
+Tin học 7,Chủ đề 1: Máy tính và cộng đồng,Máy tính có thể hỗ trợ công việc gì sau đây?,Soạn thảo văn bản,Chơi nhạc cụ,Nấu ăn,Xây nhà,option_a
+Tin học 7,Chủ đề 1: Máy tính và cộng đồng,Thiết bị nào giúp kết nối máy tính với Internet?,Máy in,Router,Màn hình,Chuột,option_b
+Tin học 7,Chủ đề 1: Máy tính và cộng đồng,Internet là gì?,Thiết bị mạng,Hệ thống kết nối toàn cầu,Phần mềm xử lý ảnh,Phần cứng máy tính,option_b
+Tin học 7,Chủ đề 1: Máy tính và cộng đồng,Công việc nào sau đây cần sử dụng máy tính?,Thiết kế đồ họa,Câu cá,Nấu ăn,Đạp xe,option_a
+Tin học 7,Chủ đề 1: Máy tính và cộng đồng,Ứng dụng nào sau đây dùng để soạn thảo văn bản?,PowerPoint,Word,Excel,Paint,option_b
+Tin học 7,Chủ đề 1: Máy tính và cộng đồng,Khi sử dụng máy tính cần chú ý điều gì để bảo vệ sức khỏe?,Ngồi quá sát màn hình,Ngồi đúng tư thế,Nhìn chằm chằm màn hình,Làm việc liên tục nhiều giờ,option_b
+Tin học 7,Chủ đề 1: Máy tính và cộng đồng,Email là dịch vụ gì?,Gửi thư điện tử,Xem video,Chơi game,Nghe nhạc,option_a
+Tin học 7,Chủ đề 1: Máy tính và cộng đồng,Mạng xã hội nào sau đây phổ biến hiện nay?,Google,Facebook,Word,Youtube,option_b
+Tin học 7,Chủ đề 1: Máy tính và cộng đồng,Khi tham gia mạng xã hội chúng ta cần chú ý điều gì?,Chia sẻ thông tin cá nhân,Xúc phạm người khác,Bảo vệ thông tin cá nhân,Tung tin giả,option_c
+Tin học 7,Chủ đề 1: Máy tính và cộng đồng,Máy tính giúp gì cho học tập?,Giải trí,Xem phim,Truy cập tài liệu học tập,Chơi game online,option_c
+Tin học 7,Chủ đề 2: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Thiết bị nào dùng để lưu trữ thông tin?,Màn hình,Bàn phím,Ổ cứng,Máy in,option_c
+Tin học 7,Chủ đề 2: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Dung lượng bộ nhớ của USB thường đo bằng đơn vị nào?,MB,KB,GB,TB,option_c
+Tin học 7,Chủ đề 2: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Công cụ nào giúp tìm kiếm thông tin trên Internet?,Excel,Word,Google,Youtube,option_c
+Tin học 7,Chủ đề 2: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Câu nào sau đây là đúng về lưu trữ dữ liệu?,Dữ liệu luôn mất sau khi tắt máy,Dữ liệu được lưu ở RAM,Dữ liệu lưu ở thiết bị lưu trữ lâu dài,Dữ liệu chỉ lưu trên màn hình,option_c
+Tin học 7,Chủ đề 2: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Thiết bị lưu trữ di động nào sau đây phổ biến?,Ổ USB,Máy in,Chuột,Bàn phím,option_a
+Tin học 7,Chủ đề 2: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Khi tìm kiếm thông tin từ khóa cần có đặc điểm gì?,Dài dòng,Không liên quan,Ngắn gọn,Ngẫu nhiên,option_c
+Tin học 7,Chủ đề 2: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Thông tin tìm kiếm trên Internet cần được?,Kiểm tra độ tin cậy,Sao chép toàn bộ,Tin tưởng tuyệt đối,Bỏ qua nguồn gốc,option_a
+Tin học 7,Chủ đề 2: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Bộ nhớ nào sẽ mất dữ liệu khi tắt nguồn máy tính?,Ổ cứng,USB,CD-ROM,RAM,option_d
+Tin học 7,Chủ đề 2: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Khi tìm kiếm trên Internet nên sử dụng công cụ nào để lọc kết quả?,Google Drive,Google Search,Google Docs,Google Maps,option_b
+Tin học 7,Chủ đề 2: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Ổ cứng trong máy tính là thiết bị gì?,Thiết bị nhập liệu,Thiết bị lưu trữ,Thiết bị xuất liệu,Thiết bị điều khiển,option_b
+Tin học 7,Chủ đề 3: Đạo đức pháp luật văn hóa trong môi trường số,Việc chia sẻ thông tin sai lệch trên mạng là hành vi?,Đúng pháp luật,Xấu và vi phạm pháp luật,Được khuyến khích,Không bị cấm,option_b
+Tin học 7,Chủ đề 3: Đạo đức pháp luật văn hóa trong môi trường số,Chúng ta cần làm gì khi tham gia mạng xã hội?,Đăng tải thông tin bịa đặt,Bảo vệ thông tin cá nhân,Xúc phạm người khác,Chia sẻ thông tin nhạy cảm,option_b
+Tin học 7,Chủ đề 3: Đạo đức pháp luật văn hóa trong môi trường số,Hành vi đánh cắp tài khoản mạng xã hội là hành vi?,Hợp pháp,Bất hợp pháp,Bình thường,Không bị phạt,option_b
+Tin học 7,Chủ đề 3: Đạo đức pháp luật văn hóa trong môi trường số,Phần mềm không bản quyền gọi là gì?,Phần mềm tự do,Phần mềm hợp pháp,Phần mềm lậu,Phần mềm miễn phí,option_c
+Tin học 7,Chủ đề 3: Đạo đức pháp luật văn hóa trong môi trường số,Khi sử dụng thông tin của người khác cần phải?,Tự do sử dụng mà không cần xin phép,Xin phép và ghi rõ nguồn,Chia sẻ rộng rãi,Chỉnh sửa tùy ý,option_b
+Tin học 7,Chủ đề 3: Đạo đức pháp luật văn hóa trong môi trường số,Hành vi nào sau đây thể hiện đạo đức tốt khi sử dụng Internet?,Bịa đặt thông tin,Chia sẻ thông tin hữu ích,Tung tin đồn thất thiệt,Xâm nhập trái phép vào hệ thống,option_b
+Tin học 7,Chủ đề 3: Đạo đức pháp luật văn hóa trong môi trường số,Luật nào quy định về bảo vệ dữ liệu cá nhân ở Việt Nam?,Luật Giao thông,Luật Dân sự,Luật An ninh mạng,Luật Môi trường,option_c
+Tin học 7,Chủ đề 3: Đạo đức pháp luật văn hóa trong môi trường số,Khi phát hiện thông tin sai lệch trên mạng chúng ta nên?,Phớt lờ,Tiếp tục chia sẻ,Báo cáo hoặc chặn,Ủng hộ,option_c
+Tin học 7,Chủ đề 3: Đạo đức pháp luật văn hóa trong môi trường số,Chia sẻ hình ảnh riêng tư của người khác khi chưa có phép là?,Hành động tốt,Hợp pháp,Xâm phạm quyền riêng tư,Hợp tác,option_c
+Tin học 7,Chủ đề 3: Đạo đức pháp luật văn hóa trong môi trường số,Khi sử dụng Internet cần tôn trọng điều gì?,Sở thích cá nhân,Tài sản cá nhân của mình,Quyền riêng tư và luật pháp,Chỉ quan tâm mình,option_c
+Tin học 7,Chủ đề 4: Ứng dụng tin học,Phần mềm nào dùng để trình chiếu bài thuyết trình?,Word,Excel,PowerPoint,Paint,option_c
+Tin học 7,Chủ đề 4: Ứng dụng tin học,Phần mềm dùng để vẽ tranh trên máy tính là gì?,Paint,Excel,Word,Access,option_a
+Tin học 7,Chủ đề 4: Ứng dụng tin học,Đâu là phần mềm bảng tính điện tử?,Word,PowerPoint,Excel,Photoshop,option_c
+Tin học 7,Chủ đề 4: Ứng dụng tin học,Phần mềm nào sau đây dùng để soạn thảo văn bản?,Paint,Excel,Word,Chrome,option_c
+Tin học 7,Chủ đề 4: Ứng dụng tin học,Chức năng chính của phần mềm PowerPoint là gì?,Vẽ tranh,Trình chiếu bài giảng,Soạn thảo văn bản,Lập bảng tính,option_b
+Tin học 7,Chủ đề 4: Ứng dụng tin học,Công cụ nào giúp tổ chức lưu trữ dữ liệu dạng bảng?,Excel,Paint,Word,Chrome,option_a
+Tin học 7,Chủ đề 4: Ứng dụng tin học,Đâu là ví dụ về ứng dụng tin học trong học tập?,Sử dụng YouTube để xem phim,Sử dụng Word để soạn bài tập,Sử dụng Facebook để chat,Sử dụng Instagram để đăng ảnh,option_b
+Tin học 7,Chủ đề 4: Ứng dụng tin học,Ứng dụng nào được dùng nhiều trong học trực tuyến?,Zoom,Photoshop,Paint,Notepad,option_a
+Tin học 7,Chủ đề 4: Ứng dụng tin học,Để tính toán nhanh trong bảng tính ta dùng phần mềm nào?,PowerPoint,Excel,Paint,Word,option_b
+Tin học 7,Chủ đề 4: Ứng dụng tin học,Ứng dụng nào không thuộc nhóm phần mềm văn phòng?,Word,Excel,Paint,PowerPoint,option_c
+Tin học 7,Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính,Phần mềm nào hỗ trợ lập kế hoạch tính toán ngân sách?,Word,Excel,PowerPoint,Paint,option_b
+Tin học 7,Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính,Máy tính giúp giải quyết bài toán phức tạp bằng cách nào?,Tính toán thủ công,Thực hiện tự động,Đoán ngẫu nhiên,Thử nhiều lần,option_b
+Tin học 7,Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính,Đâu là ví dụ sử dụng máy tính để giải quyết bài toán học tập?,Vẽ tay sơ đồ tư duy,Dùng phần mềm để vẽ sơ đồ tư duy,Viết tay luận văn,Ghi chép bằng sổ,option_b
+Tin học 7,Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính,Ứng dụng nào hỗ trợ làm báo cáo soạn thảo văn bản?,Excel,Word,Photoshop,Paint,option_b
+Tin học 7,Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính,Để giải quyết vấn đề chúng ta cần bước nào đầu tiên?,Lựa chọn giải pháp,Phân tích vấn đề,Xây dựng phương án,Thực hiện,option_b
+Tin học 7,Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính,Phần mềm nào hỗ trợ thiết kế bài trình chiếu?,Word,Excel,PowerPoint,Paint,option_c
+Tin học 7,Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính,Việc sử dụng máy tính giúp tiết kiệm yếu tố nào?,Thời gian và công sức,Tiền bạc,Không gian,Điện năng,option_a
+Tin học 7,Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính,Để tìm kiếm thông tin nhanh chóng ta nên sử dụng công cụ nào?,Máy in,Bảng trắng,Internet,USB,option_c
+Tin học 7,Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính,Phần mềm lập trình giúp học sinh làm gì?,Vẽ tranh,Soạn nhạc,Lập trình giải bài toán,Tạo video,option_c
+Tin học 7,Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính,Việc mô phỏng thí nghiệm trong học tập thường dùng công cụ nào?,Bảng phấn,Phần mềm mô phỏng,Máy chiếu,Máy ảnh,option_b
+Tin học 8,Chủ đề 1: Máy tính và cộng đồng,Máy tính đóng vai trò gì trong cộng đồng hiện nay?,Chỉ dùng để chơi game,Giúp lưu trữ và xử lý thông tin nhanh chóng,Chỉ để giải trí,Giao tiếp truyền thống,option_b
+Tin học 8,Chủ đề 1: Máy tính và cộng đồng,Thiết bị nào dưới đây giúp kết nối máy tính với Internet?,Máy in,Router,Máy chiếu,Bàn phím,option_b
+Tin học 8,Chủ đề 1: Máy tính và cộng đồng,Đâu là ứng dụng phổ biến của máy tính trong giáo dục?,Giải trí,Soạn bài giảng điện tử,Chơi game,Lướt mạng xã hội,option_b
+Tin học 8,Chủ đề 1: Máy tính và cộng đồng,Ứng dụng nào sau đây là mạng xã hội?,Word,Facebook,Excel,Paint,option_b
+Tin học 8,Chủ đề 1: Máy tính và cộng đồng,Phần mềm nào dùng để tìm kiếm thông tin?,Chrome,Paint,Word,Excel,option_a
+Tin học 8,Chủ đề 1: Máy tính và cộng đồng,Máy tính giúp con người xử lý thông tin như thế nào?,Chậm và thủ công,Nhanh chóng và hiệu quả,Chỉ lưu trữ,Không giúp ích gì,option_b
+Tin học 8,Chủ đề 1: Máy tính và cộng đồng,Máy tính có thể giúp hỗ trợ trong những lĩnh vực nào?,Giáo dục,Y tế,Giao thông,Tất cả các lĩnh vực trên,option_d
+Tin học 8,Chủ đề 1: Máy tính và cộng đồng,Internet giúp ích cho việc nào sau đây?,Chơi game,Trao đổi thông tin nhanh chóng,Xem phim,Chụp ảnh,option_b
+Tin học 8,Chủ đề 1: Máy tính và cộng đồng,Việc chia sẻ tài liệu học tập qua Internet giúp ích điều gì?,Tốn thời gian,Tiết kiệm thời gian và công sức,Không an toàn,Gây khó khăn,option_b
+Tin học 8,Chủ đề 1: Máy tính và cộng đồng,Hành động nào dưới đây thể hiện việc sử dụng máy tính có ích cho cộng đồng?,Tung tin giả mạo,Chia sẻ tài liệu học tập hữu ích,Phát tán virus,Xâm nhập trái phép hệ thống,option_b
+Tin học 8,Chủ đề 2: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Thiết bị nào dùng để lưu trữ dữ liệu lâu dài trong máy tính?,RAM,Ổ cứng,CPU,Card màn hình,option_b
+Tin học 8,Chủ đề 2: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Bộ nhớ nào sẽ mất dữ liệu khi tắt nguồn?,Ổ cứng,USB,RAM,Ổ đĩa CD,option_c
+Tin học 8,Chủ đề 2: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Công cụ nào giúp tìm kiếm thông tin nhanh trên Internet?,Paint,Google,Word,Excel,option_b
+Tin học 8,Chủ đề 2: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Dung lượng lưu trữ của USB thường đo bằng đơn vị nào?,Giây,Gigabyte,Bit,Inch,option_b
+Tin học 8,Chủ đề 2: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Tập tin được tổ chức lưu trữ trong máy tính dưới dạng gì?,Hình ảnh,Âm thanh,Tệp dữ liệu,Các thiết bị,option_c
+Tin học 8,Chủ đề 2: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Khi tìm kiếm thông tin việc sử dụng từ khóa phù hợp giúp?,Giảm tốc độ tìm kiếm,Tiết kiệm thời gian và tìm đúng nội dung,Tăng độ khó,Tạo nhiều lỗi,option_b
+Tin học 8,Chủ đề 2: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Để chia sẻ tài liệu học tập cho bạn bè chúng ta có thể dùng cách nào sau đây?,Gửi thư tay,Gửi qua email,Gửi bằng USB,Đọc cho nhau nghe,option_b
+Tin học 8,Chủ đề 2: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Đâu là thiết bị lưu trữ di động thông dụng hiện nay?,Chuột,USB,Màn hình,Máy in,option_b
+Tin học 8,Chủ đề 2: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Câu nào sau đây là đúng khi trao đổi thông tin trên mạng?,Không cần kiểm tra tính xác thực thông tin,Kiểm tra tính chính xác và độ tin cậy trước khi chia sẻ,Chia sẻ mọi thông tin thu thập được,Không cần chú ý nguồn tin,option_b
+Tin học 8,Chủ đề 2: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Ổ cứng trong máy tính dùng để làm gì?,Xuất dữ liệu,Lưu trữ dữ liệu,Nhập dữ liệu,Hiển thị hình ảnh,option_b
+Tin học 8,Chủ đề 3: Đạo đức pháp luật văn hóa trong môi trường số,Việc chia sẻ thông tin sai lệch trên mạng là hành vi gì?,Hợp pháp,Vi phạm pháp luật,Được khuyến khích,Không ảnh hưởng,option_b
+Tin học 8,Chủ đề 3: Đạo đức pháp luật văn hóa trong môi trường số,Khi sử dụng Internet cần tôn trọng điều gì?,Luật pháp,Ý thích cá nhân,Sự tò mò,Ý kiến chủ quan,option_a
+Tin học 8,Chủ đề 3: Đạo đức pháp luật văn hóa trong môi trường số,Hành động nào thể hiện văn hóa ứng xử trên Internet?,Nói tục chửi bậy,Bình luận lịch sự và đúng mực,Phát tán tin giả,Cãi vã qua mạng,option_b
+Tin học 8,Chủ đề 3: Đạo đức pháp luật văn hóa trong môi trường số,Sử dụng phần mềm lậu là hành vi gì?,Hợp pháp,Bất hợp pháp,Bình thường,Được phép,option_b
+Tin học 8,Chủ đề 3: Đạo đức pháp luật văn hóa trong môi trường số,Khi chia sẻ bài viết của người khác cần phải?,Ghi rõ nguồn gốc,Thay tên tác giả,Sửa đổi nội dung,Bỏ qua nguồn gốc,option_a
+Tin học 8,Chủ đề 3: Đạo đức pháp luật văn hóa trong môi trường số,Khi phát hiện tin giả trên mạng ta nên làm gì?,Chia sẻ tiếp,Bỏ qua,Báo cáo và ngừng chia sẻ,Ủng hộ tin giả,option_c
+Tin học 8,Chủ đề 3: Đạo đức pháp luật văn hóa trong môi trường số,Việc xâm nhập trái phép vào hệ thống máy tính của người khác là hành vi?,Được phép,Vi phạm pháp luật,Không cần quan tâm,Được khuyến khích,option_b
+Tin học 8,Chủ đề 3: Đạo đức pháp luật văn hóa trong môi trường số,Khi tham gia mạng xã hội việc bảo vệ điều gì là rất cần thiết?,Mật khẩu của người khác,Thông tin cá nhân của mình,Thông tin giả,Thông tin bạn bè,option_b
+Tin học 8,Chủ đề 3: Đạo đức pháp luật văn hóa trong môi trường số,Hành vi nào sau đây là hợp pháp khi sử dụng tài nguyên trên Internet?,Tải phần mềm không bản quyền,Tự do phát tán thông tin sai sự thật,Sử dụng tài nguyên có phép,Sao chép tài liệu người khác mà không dẫn nguồn,option_c
+Tin học 8,Chủ đề 3: Đạo đức pháp luật văn hóa trong môi trường số,Môi trường mạng cần được xây dựng như thế nào?,Đầy rẫy tin giả,An toàn văn minh và bảo mật,Thiếu kiểm soát,Không cần an toàn,option_b
+Tin học 8,Chủ đề 4: Ứng dụng tin học,Phần mềm nào hỗ trợ soạn thảo văn bản?,Paint,Excel,Word,PowerPoint,option_c
+Tin học 8,Chủ đề 4: Ứng dụng tin học,Phần mềm nào được sử dụng để tính toán và xử lý dữ liệu?,Word,Paint,Excel,Notepad,option_c
+Tin học 8,Chủ đề 4: Ứng dụng tin học,Phần mềm nào dùng để trình chiếu bài giảng?,Excel,Word,Paint,PowerPoint,option_d
+Tin học 8,Chủ đề 4: Ứng dụng tin học,Paint là phần mềm dùng để làm gì?,Soạn thảo văn bản,Vẽ tranh,Trình chiếu,Lập bảng tính,option_b
+Tin học 8,Chủ đề 4: Ứng dụng tin học,Phần mềm Excel thường dùng trong việc gì?,Tạo bảng tính và tính toán số liệu,Vẽ đồ họa,Trình chiếu bài thuyết trình,Thiết kế web,option_a
+Tin học 8,Chủ đề 4: Ứng dụng tin học,Để thiết kế bài giảng sinh động chúng ta nên sử dụng phần mềm nào?,Paint,Excel,PowerPoint,Word,option_c
+Tin học 8,Chủ đề 4: Ứng dụng tin học,Google Drive chủ yếu được dùng để làm gì?,Chơi game,Lưu trữ và chia sẻ tài liệu,Soạn thảo văn bản,Thiết kế đồ họa,option_b
+Tin học 8,Chủ đề 4: Ứng dụng tin học,Ứng dụng nào sau đây hỗ trợ hội họp trực tuyến?,Paint,Zoom,Photoshop,Excel,option_b
+Tin học 8,Chủ đề 4: Ứng dụng tin học,Ứng dụng nào có chức năng chính là tìm kiếm thông tin trên Internet?,Google Search,PowerPoint,Excel,Word,option_a
+Tin học 8,Chủ đề 4: Ứng dụng tin học,Trong học tập phần mềm Word hỗ trợ học sinh làm việc gì?,Trình chiếu,Soạn thảo tài liệu,Thiết kế poster,Chỉnh sửa video,option_b
+Tin học 8,Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính,Thuật toán là gì?,Một chuỗi các bước giải quyết vấn đề,Công cụ lưu trữ dữ liệu,Một phần mềm văn phòng,Một loại phần cứng máy tính,option_a
+Tin học 8,Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính,Ngôn ngữ lập trình dùng để làm gì?,Vẽ tranh,Tạo tài liệu trình chiếu,Xây dựng chương trình để giải quyết vấn đề,Chơi game,option_c
+Tin học 8,Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính,Các bước giải quyết vấn đề bằng máy tính gồm mấy bước chính?,2 bước,3 bước,4 bước,5 bước,option_c
+Tin học 8,Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính,Bước đầu tiên khi giải quyết vấn đề bằng máy tính là gì?,Viết chương trình,Xác định vấn đề,Chạy thử chương trình,Kiểm tra kết quả,option_b
+Tin học 8,Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính,Ngôn ngữ lập trình Scratch là dạng gì?,Ngôn ngữ lập trình dạng kéo thả,Ngôn ngữ lập trình dạng văn bản,Ngôn ngữ lập trình máy,Ngôn ngữ lập trình SQL,option_a
+Tin học 8,Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính,Thực hiện kiểm tra lỗi chương trình được gọi là gì?,Thiết kế thuật toán,Gỡ lỗi (Debug),Lưu trữ chương trình,Viết tài liệu hướng dẫn,option_b
+Tin học 8,Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính,Biểu diễn thuật toán bằng hình ảnh gọi là gì?,Sơ đồ tư duy,Sơ đồ khối,Bảng tính,Đồ thị,option_b
+Tin học 8,Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính,Vì sao cần kiểm tra kết quả sau khi chạy chương trình?,Để thiết kế giao diện tốt hơn,Để tìm lỗi và đánh giá tính đúng đắn,Để thay đổi thuật toán,Để lưu trữ chương trình,option_b
+Tin học 8,Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính,Các thao tác chính trong quá trình lập trình gồm?,Thiết kế,Viết chương trình,Kiểm tra chương trình,Tất cả các đáp án trên,option_d
+Tin học 8,Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính,Chương trình máy tính là gì?,Một tập hợp các hình ảnh,Chuỗi lệnh được viết theo một ngôn ngữ lập trình,Thiết bị phần cứng,Tài liệu học tập,option_b
+Tin học 8,Chủ đề 6: Hướng nghiệp với Tin học,Nghề nào sau đây có liên quan mật thiết đến Tin học?,Bác sĩ,Luật sư,Lập trình viên,Kỹ sư xây dựng,option_c
+Tin học 8,Chủ đề 6: Hướng nghiệp với Tin học,Công việc nào cần sử dụng phần mềm thiết kế đồ họa?,Lập trình website,Thiết kế thời trang,Thiết kế poster quảng cáo,Dạy học,option_c
+Tin học 8,Chủ đề 6: Hướng nghiệp với Tin học,Chuyên ngành nào chuyên sâu về mạng máy tính?,Kế toán,Công nghệ thông tin,Kinh doanh,Mỹ thuật,option_b
+Tin học 8,Chủ đề 6: Hướng nghiệp với Tin học,Ngành học nào đào tạo lập trình viên?,Nông nghiệp,Công nghệ thông tin,Y tế,Quản trị kinh doanh,option_b
+Tin học 8,Chủ đề 6: Hướng nghiệp với Tin học,Để trở thành kỹ sư phần mềm cần học tốt môn nào?,Sinh học,Địa lý,Tin học và Toán học,Vật lý,option_c
+Tin học 8,Chủ đề 6: Hướng nghiệp với Tin học,Thiết kế website thuộc lĩnh vực nào trong Tin học?,Thiết kế đồ họa,Lập trình web,Quản lý cơ sở dữ liệu,An ninh mạng,option_b
+Tin học 8,Chủ đề 6: Hướng nghiệp với Tin học,Ứng dụng Tin học phổ biến trong ngành Y tế là gì?,Lập trình trò chơi,Quản lý hồ sơ bệnh án,Làm phim hoạt hình,Thiết kế máy móc,option_b
+Tin học 8,Chủ đề 6: Hướng nghiệp với Tin học,Kỹ thuật viên tin học làm nhiệm vụ gì?,Sửa chữa phần mềm và phần cứng máy tính,Chỉ sửa xe máy,Trồng cây,Viết sách văn học,option_a
+Tin học 8,Chủ đề 6: Hướng nghiệp với Tin học,Nhân viên nhập liệu cần kỹ năng gì?,Đánh máy nhanh và chính xác,Chơi game giỏi,Biết nấu ăn,Xây nhà,option_a
+Tin học 8,Chủ đề 6: Hướng nghiệp với Tin học,Người làm việc trong lĩnh vực An ninh mạng có nhiệm vụ gì?,Bảo vệ an toàn thông tin mạng,Tổ chức sự kiện,Làm giáo viên,Thiết kế nội thất,option_a
+Tin học 9,Chủ đề 1: Máy tính và cộng đồng,Ứng dụng phổ biến của máy tính trong đời sống là gì?,Chơi game,Lưu trữ và xử lý thông tin,Chụp ảnh,Làm vườn,option_b
+Tin học 9,Chủ đề 1: Máy tính và cộng đồng,Mạng máy tính cho phép người dùng làm gì?,Lưu trữ thông tin offline,Kết nối và chia sẻ thông tin,Chơi game offline,In ấn tài liệu,option_b
+Tin học 9,Chủ đề 1: Máy tính và cộng đồng,Ứng dụng nào sau đây là dịch vụ thư điện tử?,Facebook,Gmail,Youtube,Instagram,option_b
+Tin học 9,Chủ đề 1: Máy tính và cộng đồng,Thiết bị nào kết nối máy tính với mạng Internet?,Máy in,Bàn phím,Router,Máy quét,option_c
+Tin học 9,Chủ đề 1: Máy tính và cộng đồng,Trong lĩnh vực giáo dục máy tính được dùng để?,Giải trí,Quản lý học sinh và dạy học,Quay phim,Làm vườn,option_b
+Tin học 9,Chủ đề 1: Máy tính và cộng đồng,Công nghệ thông tin có vai trò như thế nào trong đời sống hiện đại?,Không cần thiết,Càng ngày càng quan trọng,Ít liên quan,Chỉ dành cho công nghệ cao,option_b
+Tin học 9,Chủ đề 1: Máy tính và cộng đồng,Mạng xã hội giúp ích cho việc gì?,Giải trí đơn thuần,Chia sẻ thông tin và kết nối cộng đồng,Chỉ để chơi game,Gây nghiện mạng,option_b
+Tin học 9,Chủ đề 1: Máy tính và cộng đồng,Ứng dụng Zoom được sử dụng phổ biến cho mục đích nào?,Soạn thảo văn bản,Trình chiếu bài giảng,Giảng dạy và họp trực tuyến,Vẽ đồ họa,option_c
+Tin học 9,Chủ đề 1: Máy tính và cộng đồng,Thiết bị đầu vào nào sau đây dùng để nhập dữ liệu?,Màn hình,Bàn phím,Loa,Ổ cứng,option_b
+Tin học 9,Chủ đề 1: Máy tính và cộng đồng,Máy tính giúp nâng cao hiệu quả công việc nhờ vào khả năng nào?,Xử lý dữ liệu nhanh chóng,Lưu trữ thông tin chậm,Bắt buộc người dùng tính toán,Xóa dữ liệu tự động,option_a
+Tin học 9,Chủ đề 2: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Thiết bị nào sau đây dùng để lưu trữ dữ liệu lâu dài?,RAM,Ổ cứng,CPU,Màn hình,option_b
+Tin học 9,Chủ đề 2: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Công cụ phổ biến nhất để tìm kiếm thông tin trên Internet là gì?,YouTube,Google,Facebook,Zalo,option_b
+Tin học 9,Chủ đề 2: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Đơn vị đo dung lượng lưu trữ lớn hơn GB là gì?,MB,KB,TB,PB,option_c
+Tin học 9,Chủ đề 2: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Một tệp tin cần được tổ chức theo cấu trúc nào trong máy tính?,Thư mục,Bàn phím,Ổ đĩa mềm,Màn hình nền,option_a
+Tin học 9,Chủ đề 2: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Bộ nhớ nào dưới đây được dùng để lưu trữ lâu dài?,RAM,ROM,Cache,USB,option_d
+Tin học 9,Chủ đề 2: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Muốn trao đổi dữ liệu giữa hai máy tính cần thiết bị gì?,Chuột,USB,Bàn phím,Máy in,option_b
+Tin học 9,Chủ đề 2: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Khi tìm kiếm thông tin trên mạng yếu tố nào quan trọng nhất?,Tốc độ mạng,Nội dung thông tin chính xác,Thiết kế website,Tốc độ xử lý máy tính,option_b
+Tin học 9,Chủ đề 2: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Thao tác lưu tài liệu sau khi soạn thảo văn bản là gì?,In tài liệu,Lưu file,Gửi email,Tắt máy,option_b
+Tin học 9,Chủ đề 2: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Tệp tin có thể chứa những loại thông tin nào?,Văn bản,Hình ảnh,Âm thanh,Tất cả các đáp án trên,option_d
+Tin học 9,Chủ đề 2: Tổ chức lưu trữ tìm kiếm và trao đổi thông tin,Khi cần tìm kiếm tài liệu học tập trực tuyến chúng ta nên sử dụng công cụ nào?,Facebook,Google Search,Zalo,Messenger,option_b
+Tin học 9,Chủ đề 3: Đạo đức pháp luật văn hóa trong môi trường số,Việc sao chép phần mềm bất hợp pháp được gọi là gì?,Được phép,Vi phạm bản quyền,Khuyến khích sử dụng,Chấp nhận được,option_b
+Tin học 9,Chủ đề 3: Đạo đức pháp luật văn hóa trong môi trường số,Hành vi nào sau đây là đúng với đạo đức trên Internet?,Chia sẻ thông tin hữu ích,Bịa đặt thông tin,Tung tin giả mạo,Xâm nhập hệ thống người khác,option_a
+Tin học 9,Chủ đề 3: Đạo đức pháp luật văn hóa trong môi trường số,Việc bảo vệ thông tin cá nhân trên Internet có vai trò gì?,Không cần thiết,Rất quan trọng,Chỉ cần với người lớn,Chỉ cần với người nổi tiếng,option_b
+Tin học 9,Chủ đề 3: Đạo đức pháp luật văn hóa trong môi trường số,Khi gặp thông tin xấu trên mạng ta nên làm gì?,Bỏ qua,Chia sẻ rộng rãi,Báo cáo cho cơ quan chức năng,Ủng hộ và chia sẻ thêm,option_c
+Tin học 9,Chủ đề 3: Đạo đức pháp luật văn hóa trong môi trường số,Việc phát tán virus máy tính sẽ bị xử lý như thế nào?,Được phép,Vi phạm pháp luật,Không bị xử lý,Có thể thực hiện thoải mái,option_b
+Tin học 9,Chủ đề 3: Đạo đức pháp luật văn hóa trong môi trường số,Hành vi xâm nhập trái phép hệ thống máy tính của người khác là?,Hợp pháp,Vi phạm pháp luật,Được khuyến khích,Bình thường,option_b
+Tin học 9,Chủ đề 3: Đạo đức pháp luật văn hóa trong môi trường số,Việc đăng bài sai sự thật nhằm lừa đảo sẽ bị xử lý như thế nào?,Không sao cả,Bị xử lý theo pháp luật,Được khuyến khích,Bỏ qua,option_b
+Tin học 9,Chủ đề 3: Đạo đức pháp luật văn hóa trong môi trường số,Đâu là hành vi thể hiện văn hóa ứng xử trên mạng?,Bình luận lịch sự và đúng mực,Chửi bới lăng mạ,Bịa đặt thông tin,Kích động bạo lực,option_a
+Tin học 9,Chủ đề 3: Đạo đức pháp luật văn hóa trong môi trường số,Khi sử dụng tài liệu của người khác ta cần phải làm gì?,Sử dụng tự do,Ghi rõ nguồn trích dẫn,Không cần ghi nguồn,Sửa đổi nội dung tùy ý,option_b
+Tin học 9,Chủ đề 3: Đạo đức pháp luật văn hóa trong môi trường số,An toàn thông tin cá nhân giúp chúng ta?,Dễ bị lừa đảo,Giữ bí mật và an toàn trên mạng,Tăng khả năng chia sẻ thông tin,Dễ bị mất tài khoản,option_b
+Tin học 9,Chủ đề 4: Ứng dụng tin học,Phần mềm nào sau đây dùng để soạn thảo văn bản?,Excel,Paint,Word,PowerPoint,option_c
+Tin học 9,Chủ đề 4: Ứng dụng tin học,Phần mềm Excel dùng để làm gì?,Tính toán và lập bảng biểu,Vẽ tranh,Trình chiếu bài giảng,Chơi game,option_a
+Tin học 9,Chủ đề 4: Ứng dụng tin học,Phần mềm nào hỗ trợ tạo bài trình chiếu?,Word,PowerPoint,Excel,Paint,option_b
+Tin học 9,Chủ đề 4: Ứng dụng tin học,Phần mềm nào dưới đây dùng để thiết kế đồ họa?,Paint,Photoshop,Word,PowerPoint,option_b
+Tin học 9,Chủ đề 4: Ứng dụng tin học,Để lưu trữ dữ liệu trực tuyến ta có thể sử dụng dịch vụ nào?,Facebook,Google Drive,Zalo,Youtube,option_b
+Tin học 9,Chủ đề 4: Ứng dụng tin học,Công cụ nào cho phép hội họp và học trực tuyến?,PowerPoint,Zoom,Photoshop,Paint,option_b
+Tin học 9,Chủ đề 4: Ứng dụng tin học,Để biên tập video phần mềm phổ biến nào thường được dùng?,Excel,Word,Premiere,Chrome,option_c
+Tin học 9,Chủ đề 4: Ứng dụng tin học,Chức năng chính của phần mềm Google Docs là gì?,Vẽ đồ họa,Soạn thảo văn bản trực tuyến,Chơi game,Chỉnh sửa video,option_b
+Tin học 9,Chủ đề 4: Ứng dụng tin học,Phần mềm nào chuyên dùng để nén và giải nén tệp tin?,Photoshop,WinRAR,Excel,Word,option_b
+Tin học 9,Chủ đề 4: Ứng dụng tin học,Để tạo bảng tính và thống kê dữ liệu phần mềm nào được dùng phổ biến nhất?,Word,PowerPoint,Paint,Excel,option_d
+Tin học 9,Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính,Thuật toán là gì?,Tập hợp các bước giải quyết vấn đề,Phần mềm máy tính,Một loại phần cứng,Ứng dụng mạng xã hội,option_a
+Tin học 9,Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính,Bước đầu tiên khi giải quyết vấn đề là gì?,Tìm kiếm giải pháp,Xác định rõ vấn đề,Chạy thử nghiệm,Đánh giá kết quả,option_b
+Tin học 9,Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính,Ngôn ngữ lập trình được dùng để?,Soạn thảo văn bản,Xây dựng chương trình giải quyết vấn đề,Thiết kế đồ họa,Nghe nhạc,option_b
+Tin học 9,Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính,Trong lập trình kiểm tra và sửa lỗi chương trình gọi là gì?,Lập trình,Gỡ lỗi (Debug),Soạn thảo,Cài đặt,option_b
+Tin học 9,Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính,Phần mềm Scratch là dạng phần mềm gì?,Phần mềm trình chiếu,Phần mềm lập trình kéo thả,Phần mềm nghe nhạc,Phần mềm đồ họa,option_b
+Tin học 9,Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính,Biểu diễn thuật toán bằng hình ảnh được gọi là gì?,Sơ đồ khối,Sơ đồ mạng,Bảng tính,Thư viện số,option_a
+Tin học 9,Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính,Ưu điểm của giải quyết vấn đề bằng máy tính là gì?,Chậm chạp,Tiết kiệm thời gian và chính xác,Tốn nhiều tài nguyên,Không hiệu quả,option_b
+Tin học 9,Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính,Khi thiết kế thuật toán điều quan trọng nhất là gì?,Trang trí đẹp,Xác định rõ các bước xử lý,Chạy thử nhiều lần,Viết dài dòng,option_b
+Tin học 9,Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính,Chương trình máy tính là gì?,Một bài hát,Một bộ phim,Một tập hợp các câu lệnh,Thiết bị ngoại vi,option_c
+Tin học 9,Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính,Trong quy trình giải quyết vấn đề bước cuối cùng là gì?,Viết thuật toán,Đánh giá và kiểm tra kết quả,Phát hiện lỗi mới,Sửa máy tính,option_b
+Tin học 9,Chủ đề 6: Hướng nghiệp với Tin học,Ngành nào liên quan mật thiết nhất với Tin học?,Nông nghiệp,Công nghệ thông tin,Y tế,Du lịch,option_b
+Tin học 9,Chủ đề 6: Hướng nghiệp với Tin học,Người làm trong lĩnh vực An toàn thông tin có nhiệm vụ gì?,Thiết kế nội thất,Bảo vệ hệ thống mạng,Quản lý khách sạn,Trồng cây,option_b
+Tin học 9,Chủ đề 6: Hướng nghiệp với Tin học,Lập trình viên làm công việc gì?,Vẽ tranh,Viết chương trình máy tính,Chụp ảnh,Sửa xe,option_b
+Tin học 9,Chủ đề 6: Hướng nghiệp với Tin học,Nghề nào yêu cầu kỹ năng thiết kế giao diện phần mềm?,Lập trình web,Thiết kế đồ họa,Sửa chữa ô tô,Dịch thuật,option_b
+Tin học 9,Chủ đề 6: Hướng nghiệp với Tin học,Kỹ năng nào quan trọng đối với một nhân viên nhập liệu?,Lái xe,Đánh máy nhanh và chính xác,Chụp ảnh đẹp,Chạy bộ,option_b
+Tin học 9,Chủ đề 6: Hướng nghiệp với Tin học,Chuyên ngành nào đào tạo kỹ sư lập trình máy tính?,Kinh tế,Công nghệ thông tin,Du lịch,Quản lý đất đai,option_b
+Tin học 9,Chủ đề 6: Hướng nghiệp với Tin học,Ứng dụng nào cần thiết cho nhân viên hành chính văn phòng?,Photoshop,Word,AutoCAD,Illustrator,option_b
+Tin học 9,Chủ đề 6: Hướng nghiệp với Tin học,Thiết kế trang web thuộc lĩnh vực nào?,An ninh mạng,Lập trình web,Thiết kế nhà cửa,Y tế,option_b
+Tin học 9,Chủ đề 6: Hướng nghiệp với Tin học,Ngành nghề nào liên quan đến lập trình và phát triển ứng dụng?,Bác sĩ,Lập trình viên,Nhà thiết kế thời trang,Luật sư,option_b
+Tin học 9,Chủ đề 6: Hướng nghiệp với Tin học,Để phát triển trong ngành CNTT học sinh cần rèn luyện kỹ năng nào?,Vẽ tranh,Lập trình và tư duy logic,Đánh đàn,Làm thơ,option_b

@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% block title %}Trang chủ{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="text-center mb-5">
+        <h1 class="display-5 fw-bold text-primary">🎓 Trắc nghiệm Tin học</h1>
+        <p class="lead">Nền tảng luyện tập, thi thử dành cho học sinh khối Trung học cơ sở thông qua các câu hỏi trắc nghiệm</p>
+        <div class="d-flex justify-content-center gap-3 mt-4 flex-wrap">
+            <a href="{{ url_for('quiz') }}" class="btn btn-lg btn-success">
+                <i class="fas fa-play-circle"></i> Luyện tập
+            </a>
+            <a href="{{ url_for('mock_test') }}" class="btn btn-lg btn-danger">
+                <i class="fas fa-stopwatch"></i> Thi thử
+            </a>            
+            {% if not session.get('user_id') %}
+            
+            <a href="{{ url_for('register') }}" class="btn btn-lg btn-outline-primary">
+                <i class="fas fa-user-plus"></i> Đăng ký tài khoản
+            </a>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card shadow-sm h-100">
+                <div class="card-body text-center">
+                    <i class="fas fa-laptop-code fa-3x text-primary mb-3"></i>
+                    <h5 class="card-title">Đa dạng chủ đề</h5>
+                    <p class="card-text">Luyện tập trắc nghiệm qua các chủ đề trong môn Tin học 6, 7, 8, 9.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow-sm h-100">
+                <div class="card-body text-center">
+                    <i class="fas fa-history fa-3x text-success mb-3"></i>
+                    <h5 class="card-title">Lưu lại lịch sử luyện tập</h5>
+                    <p class="card-text">Theo dõi tiến độ, xem lại kết quả và cải thiện điểm số qua từng lần luyện tập.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow-sm h-100">
+                <div class="card-body text-center">
+                    <i class="fas fa-user-shield fa-3x text-danger mb-3"></i>
+                    <h5 class="card-title">Bảo mật & dễ dùng</h5>
+                    <p class="card-text">Giao diện thân thiện, đăng nhập nhanh, dữ liệu được bảo vệ an toàn.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

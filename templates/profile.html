@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% block title %}Cập nhật hồ sơ{% endblock %}
+
+{% block content %}
+<div class="container mt-5" style="max-width: 600px;">
+    <h2 class="mb-4 text-center">👤 Cập nhật Hồ sơ</h2>
+
+    <form method="POST" action="{{ url_for('profile') }}" enctype="multipart/form-data" class="p-4 bg-white rounded shadow-sm">
+        <!-- Avatar Section -->
+        <div class="text-center mb-4">
+            <img src="{{ url_for('static', filename='avatars/' ~ user.avatar) }}"
+                 alt="Avatar" class="rounded-circle shadow" style="width: 120px; height: 120px; object-fit: cover;">
+            <div class="mt-3">
+                <label for="avatar" class="form-label">Thay đổi ảnh đại diện</label>
+                <input class="form-control" type="file" id="avatar" name="avatar" accept="image/*">
+            </div>
+        </div>
+
+        <hr class="my-4">
+
+        <!-- Password Change Section (optional) -->
+        <h5 class="mb-3">Đổi mật khẩu (không bắt buộc)</h5>
+
+        <div class="mb-3">
+            <label for="current_password" class="form-label">Mật khẩu hiện tại</label>
+            <input type="password" class="form-control" id="current_password" name="current_password">
+        </div>
+        <div class="mb-3">
+            <label for="new_password" class="form-label">Mật khẩu mới</label>
+            <input type="password" class="form-control" id="new_password" name="new_password">
+        </div>
+        <div class="mb-4">
+            <label for="confirm_password" class="form-label">Xác nhận mật khẩu mới</label>
+            <input type="password" class="form-control" id="confirm_password" name="confirm_password">
+        </div>
+
+        <div class="d-grid">
+            <button type="submit" class="btn btn-primary">💾 Lưu thay đổi</button>
+        </div>
+    </form>
+</div>
+{% endblock %}

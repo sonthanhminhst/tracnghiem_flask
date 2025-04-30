@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="mb-0">📊 Lịch sử luyện tập</h2>
+        
+    </div>
+
+    {% if results %}
+    <div class="table-responsive">
+        <table class="table table-striped table-hover shadow-sm rounded">
+            <thead class="table-light">
+                <tr>
+                    <th>Stt</th>
+                    <th>Điểm</th>
+                    <th>Tỉ lệ</th>
+                   
+                </tr>
+            </thead>
+            <tbody>
+                {% for score, total in results %}
+<tr>
+    <td>{{ loop.index }}</td>
+    <td>{{ score }}/{{ total }}</td>
+    <td>
+        {% if total != 0 %}
+            {{ (score / total * 100) | round(1) }}%
+        {% else %}
+            Không có dữ liệu
+        {% endif %}
+    </td>
+</tr>
+{% endfor %}
+
+            </tbody>
+        </table>
+    </div>
+    {% else %}
+    <div class="alert alert-info">
+        Bạn chưa có bài làm nào. Hãy bắt đầu với <a href="{{ url_for('quiz') }}">bài trắc nghiệm đầu tiên</a> nhé!
+    </div>
+    {% endif %}
+</div>
+
+{% endblock %}

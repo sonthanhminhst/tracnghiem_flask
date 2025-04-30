@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="container mt-5 text-center">
+    <h2 class="mb-4">🎉 Kết quả bài làm</h2>
+
+    {% set percent = (score / total * 100) if total else 0 %}
+    {% set percent_text = (percent | round(1)) ~ '%' %}
+
+    <div class="card shadow-sm border-0 mx-auto" style="max-width: 400px;">
+        <div class="card-body">
+            <h4 class="card-title">Bạn đã làm đúng:</h4>
+            <h1 class="display-4 text-success">{{ score }}/{{ total }}</h1>
+            <p class="lead">Tỷ lệ đúng: <strong>{{ percent_text }}</strong></p>
+
+            <div class="progress my-3" style="height: 25px;">
+                <div class="progress-bar bg-success dynamic-width"
+                        id="progressBar"
+                        data-percent="{{ percent | round(1) }}"
+                        aria-valuenow="{{ score }}"
+                        aria-valuemin="0"
+                        aria-valuemax="{{ total }}">
+                        {{ percent | round(1) }}%
+                </div>
+
+            </div>
+
+            <div class="mt-4 d-grid gap-2">
+                <a href="{{ url_for('quiz') }}" class="btn btn-primary">
+                    <i class="fas fa-redo-alt"></i> Làm lại bài
+                </a>
+                <a href="{{ url_for('history') }}" class="btn btn-outline-secondary">
+                    <i class="fas fa-clock"></i> Xem lịch sử
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
