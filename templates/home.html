@@ -8,10 +8,10 @@
         <p class="lead">Nền tảng luyện tập, thi thử dành cho học sinh khối Trung học cơ sở thông qua các câu hỏi trắc nghiệm</p>
         <div class="d-flex justify-content-center gap-3 mt-4 flex-wrap">
             <a href="{{ url_for('quiz') }}" class="btn btn-lg btn-success">
-                <i class="fas fa-play-circle"></i> Luyện tập
+                <i class="fas fa-pencil-alt"></i> Luyện tập
             </a>
             <a href="{{ url_for('mock_test') }}" class="btn btn-lg btn-danger">
-                <i class="fas fa-stopwatch"></i> Thi thử
+                <i class="fas fa-file-alt"></i> Thi thử
             </a>            
             {% if not session.get('user_id') %}
             
