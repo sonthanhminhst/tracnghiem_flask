@@ -112,7 +112,7 @@ def load_questions(selected_class, selected_topic):
                     'correct_option': row['correct_option']
                 })
 
-    return random.sample(questions, min(10, len(questions)))
+    return random.sample(questions, min(20, len(questions)))
 
 # Làm bài trắc nghiệm
 @app.route('/quiz', methods=['GET', 'POST'])
