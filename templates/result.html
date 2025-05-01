@@ -2,7 +2,7 @@
 {% block content %}
 
 <div class="container mt-5 text-center">
-    <h2 class="mb-4">🎉 Kết quả bài làm</h2>
+    <h2 class="mb-4 text-success">🎉 Kết quả bài làm</h2>
 
     {% set percent = (score / total * 100) if total else 0 %}
     {% set percent_text = (percent | round(1)) ~ '%' %}
@@ -14,15 +14,15 @@
             <p class="lead">Tỷ lệ đúng: <strong>{{ percent_text }}</strong></p>
 
             <div class="progress my-3" style="height: 25px;">
-                <div class="progress-bar bg-success dynamic-width"
-                        id="progressBar"
-                        data-percent="{{ percent | round(1) }}"
-                        aria-valuenow="{{ score }}"
-                        aria-valuemin="0"
-                        aria-valuemax="{{ total }}">
-                        {{ percent | round(1) }}%
+                <div class="progress-bar bg-success text-white fw-bold d-flex align-items-center justify-content-center"
+                     id="progressBar"
+                     role="progressbar"
+                     data-percent="{{ percent | round(1) }}"
+                     aria-valuenow="{{ percent }}"
+                     aria-valuemin="0"
+                     aria-valuemax="100">
+                    {{ percent_text }}
                 </div>
-
             </div>
 
             <div class="mt-4 d-grid gap-2">
@@ -36,5 +36,13 @@
         </div>
     </div>
 </div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const bar = document.getElementById("progressBar");
+        const percent = bar.dataset.percent;
+        bar.style.width = percent + "%";
+    });
+</script>
 
 {% endblock %}
